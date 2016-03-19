@@ -17,4 +17,3 @@ CREATE EXTENSION postgis_topology;
 CREATE DATABASE koop TEMPLATE template_postgis;
 EOSQL
 
-gosu postgres /usr/lib/postgresql/$PG_MAJOR/bin/pg_ctl stop
